@@ -28,6 +28,7 @@
 </code>
 
 - [nidhihcl75/frameworks_av_AOSP10_r33_CVE-2024-0040](https://github.com/nidhihcl75/frameworks_av_AOSP10_r33_CVE-2024-0040)
+- [uthrasri/frameworks_av_CVE-2024-0040](https://github.com/uthrasri/frameworks_av_CVE-2024-0040)
 
 ### CVE-2024-0044 (2024-03-11)
 
@@ -48,7 +49,6 @@
 </code>
 
 - [nidhihcl75/frameworks_av_AOSP10_r33_CVE-2024-0049](https://github.com/nidhihcl75/frameworks_av_AOSP10_r33_CVE-2024-0049)
-- [uthrasri/frameworks_av_CVE-2024-0049](https://github.com/uthrasri/frameworks_av_CVE-2024-0049)
 
 ### CVE-2024-0195 (2024-01-02)
 
@@ -1441,6 +1441,20 @@
 
 - [h4x0r-dz/CVE-2024-21893.py](https://github.com/h4x0r-dz/CVE-2024-21893.py)
 - [Chocapikk/CVE-2024-21893-to-CVE-2024-21887](https://github.com/Chocapikk/CVE-2024-21893-to-CVE-2024-21887)
+
+### CVE-2024-21978 (2024-08-05)
+
+<code>Improper input validation in SEV-SNP could allow a malicious hypervisor to read or overwrite guest memory potentially leading to data leakage or data corruption.
+</code>
+
+- [Freax13/cve-2024-21978-poc](https://github.com/Freax13/cve-2024-21978-poc)
+
+### CVE-2024-21980 (2024-08-05)
+
+<code>Improper restriction of write operations in SNP firmware could allow a malicious hypervisor to potentially overwrite a guest's memory or UMC seed resulting in loss of confidentiality and integrity.
+</code>
+
+- [Freax13/cve-2024-21980-poc](https://github.com/Freax13/cve-2024-21980-poc)
 
 ### CVE-2024-22002 (2024-06-18)
 
@@ -3223,6 +3237,7 @@
 - [Phantom-IN/CVE-2024-34102](https://github.com/Phantom-IN/CVE-2024-34102)
 - [etx-Arn/CVE-2024-34102-RCE](https://github.com/etx-Arn/CVE-2024-34102-RCE)
 - [etx-Arn/CVE-2024-34102-RCE-PoC](https://github.com/etx-Arn/CVE-2024-34102-RCE-PoC)
+- [wubinworks/magento2-cosmic-sting-patch](https://github.com/wubinworks/magento2-cosmic-sting-patch)
 
 ### CVE-2024-34144 (2024-05-02)
 
@@ -3717,6 +3732,13 @@
 
 - [Havoc10-sw/Detect_polyfill_CVE-2024-38537-](https://github.com/Havoc10-sw/Detect_polyfill_CVE-2024-38537-)
 
+### CVE-2024-38856 (2024-08-05)
+
+<code>Incorrect Authorization vulnerability in Apache OFBiz.\n\nThis issue affects Apache OFBiz: through 18.12.14.\n\nUsers are recommended to upgrade to version 18.12.15, which fixes the issue.\n\nUnauthenticated endpoints could allow execution of screen rendering code of screens if some preconditions are met (such as when the screen definitions don't explicitly check user's permissions because they rely on the configuration of their endpoints).
+</code>
+
+- [securelayer7/CVE-2024-38856_Scanner](https://github.com/securelayer7/CVE-2024-38856_Scanner)
+
 ### CVE-2024-39031 (2024-07-09)
 
 <code>In Silverpeas Core &lt;= 6.3.5, in Mes Agendas, a user can create new events and add them to their calendar. Additionally, users can invite others from the same domain, including administrators, to these events. A standard user can inject an XSS payload into the &quot;Titre&quot; and &quot;Description&quot; fields when creating an event and then add the administrator or any user to the event. When the invited user (victim) views their own profile, the payload will be executed on their side, even if they do not click on the event.
@@ -3946,6 +3968,9 @@
 ### CVE-2024-41302
 - [patrickdeanramos/CVE-2024-41302-Bookea-tu-Mesa-is-vulnerable-to-SQL-Injection](https://github.com/patrickdeanramos/CVE-2024-41302-Bookea-tu-Mesa-is-vulnerable-to-SQL-Injection)
 
+### CVE-2024-41570
+- [chebuya/Havoc-C2-SSRF-poc](https://github.com/chebuya/Havoc-C2-SSRF-poc)
+
 ### CVE-2024-41628 (2024-07-26)
 
 <code>Directory Traversal vulnerability in Severalnines Cluster Control 1.9.8 before 1.9.8-9778, 2.0.0 before 2.0.0-9779, and 2.1.0 before 2.1.0-9780 allows a remote attacker to include and display file content in an HTTP request via the CMON API.
@@ -3980,6 +4005,13 @@
 </code>
 
 - [fevar54/CVE-2024-42461](https://github.com/fevar54/CVE-2024-42461)
+
+### CVE-2024-43044 (2024-08-07)
+
+<code>Jenkins 2.470 and earlier, LTS 2.452.3 and earlier allows agent processes to read arbitrary files from the Jenkins controller file system by using the `ClassLoaderProxy#fetchJar` method in the Remoting library.
+</code>
+
+- [HwMex0/CVE-2024-43044](https://github.com/HwMex0/CVE-2024-43044)
 
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
@@ -7563,6 +7595,13 @@
 </code>
 
 - [Freax13/cve-2023-31346-poc](https://github.com/Freax13/cve-2023-31346-poc)
+
+### CVE-2023-31355 (2024-08-05)
+
+<code>Improper restriction of write operations in SNP firmware could allow a malicious hypervisor to overwrite a guest's UMC seed potentially allowing reading of memory from a decommissioned guest.
+</code>
+
+- [Freax13/cve-2023-31355-poc](https://github.com/Freax13/cve-2023-31355-poc)
 
 ### CVE-2023-31419 (2023-10-26)
 
@@ -12876,6 +12915,7 @@
 </code>
 
 - [hxlxmjxbbxs/CVE-2022-3590-WordPress-Vulnerability-Scanner](https://github.com/hxlxmjxbbxs/CVE-2022-3590-WordPress-Vulnerability-Scanner)
+- [huynhvanphuc/CVE-2022-3590-WordPress-Vulnerability-Scanner](https://github.com/huynhvanphuc/CVE-2022-3590-WordPress-Vulnerability-Scanner)
 
 ### CVE-2022-3602 (2022-11-01)
 
@@ -39100,7 +39140,7 @@
 - [denchief1/CVE-2017-7269_Python3](https://github.com/denchief1/CVE-2017-7269_Python3)
 - [denchief1/CVE-2017-7269](https://github.com/denchief1/CVE-2017-7269)
 - [Cappricio-Securities/CVE-2017-7269](https://github.com/Cappricio-Securities/CVE-2017-7269)
-- [OmarSuarezDoro/CVE-2017-7269](https://github.com/OmarSuarezDoro/CVE-2017-7269)
+- [VanishedPeople/CVE-2017-7269](https://github.com/VanishedPeople/CVE-2017-7269)
 
 ### CVE-2017-7308 (2017-03-29)
 
